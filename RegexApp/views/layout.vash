@@ -1,0 +1,10 @@
+﻿<!doctype html>
+
+@html.block('body', function(model) {
+	
+	<p>Welcome! Please navigate to see results of the expression</p>
+	
+	<a href="http://localhost:1337/test?expr=%28%28100%2B60%29%29*2%2B%2810%2E5*2%29">Using Encoded Query String</a>
+	<p></p>
+	<a href="http://localhost:1337/test/((100+60))*2+(10.5*2)">Using Query Params</a>
+})

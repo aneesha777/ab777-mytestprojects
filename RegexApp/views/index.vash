@@ -1,0 +1,6 @@
+﻿<!doctype html>
+
+@html.block('body', function(model) {
+	
+	<p>The computed expression is: @model.myExpr</p>
+})
